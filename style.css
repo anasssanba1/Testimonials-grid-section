@@ -12,6 +12,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: hsl(210, 46%, 95%);
+	margin: 0 100px;
 
     
 }
