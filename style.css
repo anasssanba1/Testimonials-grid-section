@@ -7,15 +7,17 @@
 	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 body {
-	display: grid;
-	place-items: center;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	height: 100vh;
 	background-color: hsl(210, 46%, 95%);
+
     
 }
 main {
 	display: grid;
     grid-template-columns: repeat(5, auto);
-    
 	margin: 20px;
 	gap: 20px;
 
