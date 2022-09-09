@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+	display: grid;
+	place-items: center;
+	background-color: hsl(210, 46%, 95%);
+    
+}
+main {
+	display: grid;
+    grid-template-columns: repeat(5, auto);
+    
+	margin: 20px;
+	gap: 20px;
+
+   
+}
+.article1 {
+	grid-column: span 3;
+}
+.article3 {
+	grid-column: 5;
+	grid-row: span 2;
+	box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.144);
+}
+.article4 {
+	box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.144);
+}
+.article2 {
+	grid-row: span 1;
+}
+.article5 {
+	grid-column: span 3;
+}
+
+article {
+	padding: 32px;
+	border-radius: 5px;
+}
+article h3 {
+	font-weight: 500;
+	font-size: 15px;
+}
+article h4 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+article p {
+	font-weight: 500;
+	font-size: 14px;
+}
+img {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+.user-state {
+	font-size: 11px;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+}
+.article1 {
+	background-color: hsl(263, 55%, 52%);
+}
+.article2 {
+	background-color: hsl(217, 19%, 35%);
+}
+.article3 {
+	background-color: hsl(0, 0%, 100%);
+}
+.article4 {
+	background-color: hsl(0, 0%, 100%);
+}
+.article5 {
+	background-color: hsl(219, 29%, 14%);
+}
+
+.article1 p,
+.article2 p,
+.article5 p {
+	color: hsl(0, 0%, 81%);
+	line-height: 1.6;
+}
+.article1 h4,
+.article2 h4,
+.article5 h4 {
+	color: hsl(0, 0%, 100%);
+}
+.article1 h3,
+.article2 h3,
+.article5 h3 {
+	color: hsl(0, 0%, 100%);
+}
+.wrapper2 {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+.article3 p,
+.article4 p {
+	color: hsl(217, 19%, 35%);
+	line-height: 1.6;
+}
+.article3 h4,
+.article4 h4 {
+	color: hsl(219, 29%, 14%);
+}
+.article3 h3,
+.article4 h3 {
+	color: hsl(219, 29%, 14%);
+}
+.article1 .user-state,
+.article2 .user-state,
+.article5 .user-state {
+	color: hsl(0, 0%, 81%);
+}
+@media only screen and  (max-width:1000px){
+	main{
+		display: flex;
+		gap: 20px;
+		flex-direction: column;
+	}
+
+}
